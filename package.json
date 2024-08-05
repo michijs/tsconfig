@@ -1,0 +1,8 @@
+{
+  "name": "@michijs/tsconfig",
+  "version": "0.0.1",
+  "files": [
+    "tsconfig.json"
+  ],
+  "main": "tsconfig.json"
+}
