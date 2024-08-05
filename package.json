@@ -1,5 +1,10 @@
 {
   "name": "@michijs/tsconfig",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michijs/tsconfig.git"
+  },
   "version": "0.0.2",
   "files": [
     "tsconfig.json"
