@@ -28,4 +28,6 @@ jobs:
     with:
       release-type: ${{ github.event.inputs.release-type }}
       release-notes: ${{ github.event.inputs.release-notes }}
+      # Do nothing
+      dist-script: npm --version
     secrets: inherit
