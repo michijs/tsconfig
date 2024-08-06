@@ -15,7 +15,7 @@
           "dom",
           "esnext"
       ],
-      "module": "preserve",
+      "module": "esnext",
       "moduleDetection": "force",
       "moduleResolution": "bundler",
       "noErrorTruncation": true,
