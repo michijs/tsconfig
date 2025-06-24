@@ -12,7 +12,8 @@
       "jsx": "react-jsx",
       "jsxImportSource": "@michijs/michijs",
       "lib": [
-          "dom",
+          "DOM",
+          "DOM.Iterable",
           "esnext"
       ],
       "module": "esnext",
