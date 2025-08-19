@@ -10,7 +10,7 @@
     "tsconfig.json"
   ],
   "scripts": {
-    "dist": "npm --version",
+    "dist": "npm --version"
   },
   "main": "tsconfig.json"
 }
