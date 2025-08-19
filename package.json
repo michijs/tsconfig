@@ -9,5 +9,8 @@
   "files": [
     "tsconfig.json"
   ],
+  "scripts": {
+    "dist": "npm --version",
+  },
   "main": "tsconfig.json"
 }
