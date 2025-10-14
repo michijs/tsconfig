@@ -6,7 +6,7 @@
     "url": "https://github.com/michijs/tsconfig.git"
   },
   "type": "module",
-  "version": "0.0.8-beta.0",
+  "version": "0.0.8",
   "exports": {
     "./biome": "./biome.json",
     "./wrangler.json": "./wrangler.json",
