@@ -1,0 +1,10 @@
+{
+	"$schema": "https://unpkg.com/wrangler@4.28.0/config-schema.json",
+  "compatibility_date":"2025-08-05",
+  "workers_dev": false,
+  "preview_urls": false,
+	"assets": {
+    "not_found_handling": "single-page-application",
+    "directory": "../../../build"
+  }
+}
