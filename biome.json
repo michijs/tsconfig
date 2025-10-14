@@ -1,0 +1,56 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.6/schema.json",
+  "files": {
+    "includes": ["**", "!**/*.json"]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
+  "assist": { "actions": { "source": { "organizeImports": "off" } } },
+  "linter": {
+    "includes": ["**", "!**/*.json"],
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "a11y": {
+        "useValidAnchor": "off",
+        "useButtonType": "off"
+      },
+      "complexity": {
+        "noForEach": "off",
+        "noBannedTypes": "off",
+        "useSimplifiedLogicExpression": "off"
+      },
+      "suspicious": {
+        "noEmptyInterface": "off",
+        "noAssignInExpressions": "off",
+        "noExplicitAny": "off",
+        "noDoubleEquals": "off"
+      },
+      "style": {
+        "useShorthandFunctionType": "off",
+        "useSingleVarDeclarator": "off",
+        "useBlockStatements": "off",
+        "noNonNullAssertion": "off",
+        "noImplicitBoolean": "off",
+        "noParameterAssign": "error",
+        "useAsConstAssertion": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "error",
+        "useSelfClosingElements": "error",
+        "noUnusedTemplateLiteral": "error",
+        "useNumberNamespace": "error",
+        "noInferrableTypes": "error",
+        "noUselessElse": "error"
+      },
+      "correctness": {
+        "noUnreachableSuper": "off"
+      },
+      "performance": {
+        "noDelete": "off"
+      }
+    }
+  }
+}
