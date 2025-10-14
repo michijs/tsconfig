@@ -9,10 +9,12 @@
   "version": "0.0.7",
   "exports": {
     "./biome": "./biome.json",
+    "./wrangler.json": "./wrangler.json",
     "./tsconfig": "./tsconfig.json"
   },
   "files": [
     "biome.json",
+    "wrangler.json",
     "tsconfig.json"
   ],
   "scripts": {
