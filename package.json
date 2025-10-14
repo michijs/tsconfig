@@ -6,7 +6,7 @@
     "url": "https://github.com/michijs/tsconfig.git"
   },
   "type": "module",
-  "version": "0.0.7-beta.1",
+  "version": "0.0.7",
   "exports": {
     "./biome": "./biome.json",
     "./tsconfig": "./tsconfig.json"
